@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+:root{
+    font-size: 16px;
+}
+header{
+    background-color: rgba(4, 66, 14, 1);
+    display: flex;
+    width: 100%;
+    padding: 0.6rem;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(234, 200, 93, 1);
+}
+
+header li img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+header li{
+    border: 2px solid rgba(212, 175, 55, 0.9);
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-family: 'Alegreya SC';
+}
+
+.logo img{
+    width: 8.5rem;
+    height: 7.3rem;
+}
+
+nav{
+    margin-left: 2rem;
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+}
+
+header li a div{
+    display: flex;
+    align-items: center;
+}
+
+.escolha{
+    color: white;
+}
+
+main{
+    flex: 1;
+}
+
+.introducao{
+    background-color: rgba(103, 184, 27, 1);
+    width: 100%;
+    height: 17.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao h1{
+    font-family: 'Alegreya SC', medium;
+    font-size: 8rem;
+}
+
+.introducao p{
+    font-family: 'Inter';
+    font-size: 2rem;
+}
+
+.ocarina {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.ocarina-texto {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ocarina-texto h2 {
+    font-size: 4rem;
+    font-family: 'Alegreya SC';
+}
+
+.ocarina-texto p {
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.ocarina-imagem{
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.ocarina-imagem img {
+    max-width: 20rem;
+}
+
+.melodias {
+  background-color: rgba(7, 110, 24, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Alegreya SC';
+}
+
+.melodias h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.melodia {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border: 2px solid #000;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.lado-esquerdo {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lado-esquerdo h3 {
+  font-size: 1.8rem;
+}
+
+.origem {
+  font-size: 0.9rem;
+}
+
+.ocarina_melodia{
+    display: flex;
+    align-items: center;
+}
+
+.ocarina_melodia img{
+    width: 4.5rem;
+}
+
+.lado-direito {
+  width: 40rem;
+}
+
+.lado-direito-titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.lado-direito p {
+  font-size: 1.3rem;
+}
+
+
+.rosa {
+  background-color: rgba(251, 145, 250, 1);
+}
+
+.laranja{
+    background-color: rgba(243, 147, 51, 1);
+}
+
+.verde{
+    background-color: rgba(70, 213, 57, 1);
+}
+
+.amarelo{
+    background-color: rgba(216, 225, 40, 1);
+}
+
+.azul{
+    background-color: rgba(36, 127, 173, 1);
+}
+
+.ciano{
+    background-color: rgba(90, 138, 158, 1);
+}
+
+.verde-claro{
+    background-color: rgba(111, 233, 45, 1);
+}
+
+.vermelho{
+    background-color: rgba(255, 78, 78, 1);
+}
+
+.azul-claro{
+    background-color: rgba(2, 255, 196, 1);
+}
+
+.roxo{
+    background-color: rgba(176, 98, 228, 1);
+}
+
+.laranja-claro{
+    background-color: rgba(254, 161, 55, 1);
+}
+
+.amarelo-claro{
+    background-color: rgba(246, 255, 0, 1);
+}
+
+footer{
+    display: flex;
+}
+
+footer img{
+    width: 20%;
+    height: 10rem;
+}
+.container-footer{
+    background-color: rgba(158, 123, 65, 1);
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer p{
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    margin-bottom: 1rem;
+}
+
+.container-footer ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container-footer ul li{
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+}
+
+.container-footer ul img{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 14px;
+    }
+    header{
+        flex-direction: column;
+    }
+ 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    header li {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .logo img {
+        width: 6rem;
+        height: auto;
+    }
+
+    nav {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .introducao h1 {
+        font-size: 4rem;
+    }
+
+    .introducao p {
+        font-size: 1.2rem;
+    }
+
+    .introducao{
+        height: 10rem;
+    }
+
+    .ocarina-texto{
+        width: 80%;
+    }
+
+    .ocarina-texto h2 {
+        font-size: 3rem;
+    }
+
+    .ocarina-texto p {
+        font-size: 1.5rem; 
+    }
+
+    
+
+    .container-footer p{
+        font-size: 1rem;
+    }
+
+    .container-footer ul li{
+        font-size: 0.8rem;
+    }
+
+    footer img{
+        height: 7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 12px;
+    }
+
+    header{
+        flex-direction: column;
+    }
+ 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header li {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .logo img {
+        width: 5rem;
+        height: auto;
+    }
+
+    nav {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+
+    .introducao h1 {
+        font-size: 3rem;
+    }
+
+    .introducao p {
+        font-size: 1rem;
+    }
+
+    .introducao{
+        height: 8rem;
+    }
+
+    footer img{
+        height: 6rem;
+    }
+}
+
+

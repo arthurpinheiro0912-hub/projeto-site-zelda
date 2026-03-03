@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+:root{
+    font-size: 16px;
+}
+header{
+    background-color: rgba(4, 66, 14, 1);
+    display: flex;
+    width: 100%;
+    padding: 0.6rem;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(234, 200, 93, 1);
+}
+
+header li img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+header li{
+    border: 2px solid rgba(212, 175, 55, 0.9);
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-family: 'Alegreya SC';
+}
+
+.logo img{
+    width: 8.5rem;
+    height: 7.3rem;
+}
+
+nav{
+    margin-left: 2rem;
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+}
+
+header li a div{
+    display: flex;
+    align-items: center;
+}
+
+.escolha{
+    color: white;
+}
+
+main{
+    flex: 1;
+}
+
+.introducao{
+    background-color: rgba(140, 133, 3, 1);
+    width: 100%;
+    height: 17.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao h1{
+    font-family: 'Alegreya SC', medium;
+    font-size: 8rem;
+}
+
+.introducao p{
+    font-family: 'Inter';
+    font-size: 2rem;
+}
+
+.capitulos {
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.texto {
+    width: 100%;
+}
+
+.borda-esquerda{
+    border-left: 7px solid rgba(140, 133, 3, 1);
+    padding-left: 2rem;
+}
+
+.borda-direita{
+    border-right: 7px solid rgba(140, 133, 3, 1);
+    padding-right: 2rem;
+}
+
+.texto h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.3rem 0 1.2rem;
+}
+
+.texto p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.alinha_paragrafo{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.pedras_espirituais{
+    width: 38rem;
+    max-height: 20rem;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+.link_adulto_crianca{
+    max-height: 20rem;
+    margin: auto;
+    margin-bottom: auto;
+}
+.container-frase{
+    background-color: black;
+    width: 100%;
+    height: 15rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.frase-sheik{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frase-sheik p{
+    font-size: 1.8rem;
+    font-family: 'Alegreya SC';
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+}
+
+footer img{
+    width: 20%;
+    height: 10rem;
+}
+.container-footer{
+    background-color: rgba(158, 123, 65, 1);
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer p{
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    margin-bottom: 1rem;
+}
+
+.container-footer ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container-footer ul li{
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+}
+
+.container-footer ul img{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 14px;
+    }
+    header{
+        flex-direction: column;
+    }
+ 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    header li {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .logo img {
+        width: 6rem;
+        height: auto;
+    }
+
+    nav {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .introducao h1 {
+        font-size: 4rem;
+    }
+
+    .introducao p {
+        font-size: 1.2rem;
+    }
+
+    .introducao{
+        height: 10rem;
+    }
+
+    .alinha_paragrafo{
+        flex-direction: column;
+    }
+
+    .pedras_espirituais{
+        width: 20rem;
+        margin: auto;
+    }
+
+    .frase-sheik p{
+        font-size: 1.5rem;
+    }
+
+    .container-footer p{
+        font-size: 1rem;
+    }
+
+    .container-footer ul li{
+        font-size: 0.8rem;
+    }
+
+    footer img{
+        height: 7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 12px;
+    }
+
+    header{
+        flex-direction: column;
+    }
+ 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header li {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .logo img {
+        width: 5rem;
+        height: auto;
+    }
+
+    nav {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+
+    .introducao h1 {
+        font-size: 3rem;
+    }
+
+    .introducao p {
+        font-size: 1rem;
+    }
+
+    .introducao{
+        height: 8rem;
+    }
+
+    .frase-sheik p{
+        font-size: 1.3rem;
+    }
+
+    footer img{
+        height: 6rem;
+    }
+}
+
+

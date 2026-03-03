@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+:root{
+    font-size: 16px;
+}
+header{
+    background-color: rgba(4, 66, 14, 1);
+    display: flex;
+    width: 100%;
+    padding: 0.6rem;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header a{
+    text-decoration: none;
+    color: rgba(234, 200, 93, 1);
+}
+
+header li img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+header li{
+    border: 2px solid rgba(212, 175, 55, 0.9);
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-family: 'Alegreya SC';
+}
+
+.logo img{
+    width: 8.5rem;
+    height: 7.3rem;
+}
+
+nav{
+    margin-left: 2rem;
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+}
+
+header li a div{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    flex: 1;
+}
+
+.fundo-inicial{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(140, 133, 3, 1);
+}
+
+.inicial img {
+    width: 100%;
+    max-height: 35rem;
+}
+
+.aviso{
+    background-color: rgba(140, 133, 3, 1);
+    color: rgb(255, 255, 255);
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.aviso-titulo{
+    font-size: 2.8rem;
+    font-family: 'Alegreya SC';
+    text-align: center;
+}
+
+.aviso-subtitulo{
+    font-size: 1.2rem;
+    font-family: 'Inter';
+}
+
+.container-introducao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.intro-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 36rem;
+}
+
+.intro-texto h2 {
+    font-size: 3rem;
+    font-family: 'Alegreya SC';
+}
+
+.intro-texto p {
+    font-size: 1.4rem;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.intro-imagem img{
+    width: 25rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+.recursos {
+    background-color: #000;
+    color: white;
+    padding: 4.3rem 1.8rem;
+    text-align: center;
+    font-family: 'Alegreya SC';
+}
+
+.recursos h2 {
+    font-size: 3rem;
+    margin-bottom: 3.1rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 3.1rem;
+    margin-top: 1.8rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 21rem;
+    border: 1px solid white;
+    padding: 1.8rem;
+    text-align: left;
+    border-radius: 0.3rem;
+}
+
+.card .icon {
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.9rem;
+}
+
+
+.stats {
+    background: #fff;
+    padding: 3.125rem 1.25rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 3.75rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.stat img {
+    width: 4.375rem;
+    height: 4.375rem;
+    object-fit: contain;
+}
+
+.stat h3 {
+    font-size: 4rem;
+    margin: 0;
+    font-family: 'Alegreya SC';
+    border-top: 7px solid black;
+}
+
+.stat p {
+    font-size: 2rem;
+    font-family: 'Alegreya SC';
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+}
+
+footer img{
+    width: 20%;
+    height: 10rem;
+}
+.container-footer{
+    background-color: rgba(158, 123, 65, 1);
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer p{
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    margin-bottom: 1rem;
+}
+
+.container-footer ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container-footer ul li{
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+}
+
+.container-footer ul img{
+    width: 2rem;
+    height: 2rem;
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 14px;
+    }
+    header{
+        flex-direction: column;
+    }
+ 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    header li {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .logo img {
+        width: 6rem;
+        height: auto;
+    }
+
+    nav {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .aviso-titulo{
+        font-size: 2.5rem;
+    }
+
+    .stats {
+        gap: 10rem;
+        align-content: center;
+    }
+
+    .container-footer p{
+        font-size: 1rem;
+    }
+
+    .container-footer ul li{
+        font-size: 0.8rem;
+    }
+
+    footer img{
+        height: 7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 12px;
+    }
+
+    header{
+        flex-direction: column;
+    }
+ 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header li {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .logo img {
+        width: 5rem;
+        height: auto;
+    }
+
+    nav {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+
+    .aviso-titulo{
+        font-size: 2rem;
+    }
+
+    .intro-texto h2 {
+        text-align: center;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    footer img{
+        height: 6rem;
+    }
+}
+
+
